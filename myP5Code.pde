@@ -4,13 +4,15 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
-
+var sunradius = 100, x=0, y=100;
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
  
   background(255,255,255,0);
-  
+  ellipse(mouseX,200,sunradius);
+  rect(300,200,50,50);
+  triangle(450,150,500,250,400,250);
 
 
 
